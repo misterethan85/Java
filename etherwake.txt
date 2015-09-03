@@ -1,0 +1,14 @@
+Wake on Lan Command for Server: ether-wake fe80::2a0:24ff:fee9:d3b2
+
+$ ether-wake -i local-interface mac-address
+
+ssh uplink: 192.168.0.9
+
+	app-install-data-postinstallerf
+	xterm is needed by postinstallerf-1.5-30.fc22.noarch
+	yad is needed by postinstallerf-1.5-30.fc22.noarch
+
+
+To create ISO files from extracted tarballs: 
+
+mkisofs -J -r -o your.iso /name/of/directory/with/your/files/
